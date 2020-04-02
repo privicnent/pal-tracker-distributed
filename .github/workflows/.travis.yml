@@ -1,6 +1,7 @@
 dist: trusty
 sudo: required
 notifications:
+  email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
 stages:
@@ -33,6 +34,7 @@ jobs:
         api_key: $GITHUB_OAUTH_TOKEN
         file:
           - "applications/${APPLICATION}-server/build/libs/${APPLICATION}-server.jar"
+        skip_cleanup: true
 
     - stage: build and publish
       name: backlog
@@ -152,4 +154,4 @@ jobs:
         - sudo apt-get install cf-cli
       script:
         - cf login -a $CF_API_URL -u $CF_USERNAME -p $CF_PASSWORD -o $CF_ORG -s $CF_SPACE
-        - ./gradlew cfMigrat
+        - ./gradlew cfMigrate
