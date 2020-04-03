@@ -1,13 +1,13 @@
 applications:
-- name: tracker-timesheets
-  path: ./applications/timesheets-server/build/libs/timesheets-server.jar
-  routes:
-  - route: timesheets-pal-privincent123.cfapps.io
-  memory: 450MB
-  instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-privincent123.cfapps.io
-    JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
-    JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30},{ jre: { version: 11.+ } }]'
-  services:
-  - tracker-timesheets-database
+  - name: tracker-timesheets
+    path: ./applications/timesheets-server/build/libs/timesheets-server.jar
+    routes:
+      - route: timesheets-pal-privincent123.cfapps.io
+    memory: 450MB
+    instances: 1
+    env:
+      REGISTRATION_SERVER_ENDPOINT: http://registration-pal-privincent123.cfapps.io
+      JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
+      JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30},{ jre: { version: 11.+ } }]'
+    services:
+      - tracker-timesheets-database
