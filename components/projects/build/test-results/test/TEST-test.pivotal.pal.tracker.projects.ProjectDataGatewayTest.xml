@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-02T03:28:12" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.282">
+<testsuite name="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-03T04:14:55" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.284">
   <properties/>
   <testcase name="testFind" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.219"/>
-  <testcase name="testFindAllByAccountId" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.033"/>
-  <testcase name="testCreate" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.029"/>
+  <testcase name="testFindAllByAccountId" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.035"/>
+  <testcase name="testCreate" classname="test.pivotal.pal.tracker.projects.ProjectDataGatewayTest" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation

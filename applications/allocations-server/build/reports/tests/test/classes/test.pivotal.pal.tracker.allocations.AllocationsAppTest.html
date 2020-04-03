@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">8.229s</div>
+<div class="counter">8.140s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,7 @@
 </thead>
 <tr>
 <td class="success">embedded</td>
-<td class="success">8.229s</td>
+<td class="success">8.140s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -99,40 +99,40 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.0.6.RELEASE)
 
-2020-04-02 03:27:40.442  INFO 2064 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Starting App on RABODEVOPS-7s-MacBook-Pro.local with PID 2064 (started by rabodevops-7 in /Users/rabodevops-7/Documents/StudyWorkSpace/pal-tracker-distributed/applications/allocations-server)
-2020-04-02 03:27:40.445  INFO 2064 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : No active profile set, falling back to default profiles: default
-2020-04-02 03:27:40.502  INFO 2064 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15bc15a5: startup date [Thu Apr 02 03:27:40 UTC 2020]; root of context hierarchy
-2020-04-02 03:27:41.855  INFO 2064 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
-2020-04-02 03:27:41.883  INFO 2064 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-04-02 03:27:41.883  INFO 2064 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
-2020-04-02 03:27:41.892  INFO 2064 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rabodevops-7/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-2020-04-02 03:27:41.976  INFO 2064 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2020-04-02 03:27:41.976  INFO 2064 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1482 ms
-2020-04-02 03:27:42.022  INFO 2064 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2020-04-02 03:27:42.026  INFO 2064 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2020-04-02 03:27:42.026  INFO 2064 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2020-04-02 03:27:42.026  INFO 2064 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2020-04-02 03:27:42.026  INFO 2064 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2020-04-02 03:27:42.247  INFO 2064 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-02 03:27:42.325  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@15bc15a5: startup date [Thu Apr 02 03:27:40 UTC 2020]; root of context hierarchy
-2020-04-02 03:27:42.392  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/allocations],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.allocations.AllocationInfo&gt; io.pivotal.pal.tracker.allocations.AllocationController.list(long)
-2020-04-02 03:27:42.393  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/allocations],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.allocations.AllocationInfo&gt; io.pivotal.pal.tracker.allocations.AllocationController.create(io.pivotal.pal.tracker.allocations.AllocationForm)
-2020-04-02 03:27:42.394  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String io.pivotal.pal.tracker.restsupport.SpringDefaultController.defaultRoute()
-2020-04-02 03:27:42.395  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2020-04-02 03:27:42.396  INFO 2064 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2020-04-02 03:27:42.418  INFO 2064 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-02 03:27:42.419  INFO 2064 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2020-04-02 03:27:42.670  INFO 2064 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2020-04-02 03:27:42.672  INFO 2064 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
-2020-04-02 03:27:42.676  INFO 2064 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
-2020-04-02 03:27:42.703  INFO 2064 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
-2020-04-02 03:27:42.720  INFO 2064 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Started App in 7.662 seconds (JVM running for 8.384)
-2020-04-02 03:27:42.800  INFO 2064 --- [nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2020-04-02 03:27:42.800  INFO 2064 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2020-04-02 03:27:42.814  INFO 2064 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
-2020-04-02 03:27:42.856  INFO 2064 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-04-02 03:27:42.861  WARN 2064 --- [nio-8181-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2020-04-02 03:27:42.968  INFO 2064 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-03 04:14:21.367  INFO 1477 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Starting App on RABODEVOPS-7s-MacBook-Pro.local with PID 1477 (started by rabodevops-7 in /Users/rabodevops-7/Documents/StudyWorkSpace/pal-tracker-distributed/applications/allocations-server)
+2020-04-03 04:14:21.369  INFO 1477 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : No active profile set, falling back to default profiles: default
+2020-04-03 04:14:21.404  INFO 1477 --- [    Test worker] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@68f7fdf: startup date [Fri Apr 03 04:14:21 UTC 2020]; root of context hierarchy
+2020-04-03 04:14:22.395  INFO 1477 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2020-04-03 04:14:22.423  INFO 1477 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-03 04:14:22.423  INFO 1477 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2020-04-03 04:14:22.432  INFO 1477 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/rabodevops-7/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2020-04-03 04:14:22.558  INFO 1477 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-03 04:14:22.558  INFO 1477 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1159 ms
+2020-04-03 04:14:22.630  INFO 1477 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-04-03 04:14:22.634  INFO 1477 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-04-03 04:14:22.635  INFO 1477 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-04-03 04:14:22.635  INFO 1477 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2020-04-03 04:14:22.635  INFO 1477 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-04-03 04:14:22.965  INFO 1477 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-03 04:14:23.074  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@68f7fdf: startup date [Fri Apr 03 04:14:21 UTC 2020]; root of context hierarchy
+2020-04-03 04:14:23.160  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/allocations],methods=[GET]}&quot; onto public java.util.List&lt;io.pivotal.pal.tracker.allocations.AllocationInfo&gt; io.pivotal.pal.tracker.allocations.AllocationController.list(long)
+2020-04-03 04:14:23.161  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/allocations],methods=[POST]}&quot; onto public org.springframework.http.ResponseEntity&lt;io.pivotal.pal.tracker.allocations.AllocationInfo&gt; io.pivotal.pal.tracker.allocations.AllocationController.create(io.pivotal.pal.tracker.allocations.AllocationForm)
+2020-04-03 04:14:23.162  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String io.pivotal.pal.tracker.restsupport.SpringDefaultController.defaultRoute()
+2020-04-03 04:14:23.164  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-04-03 04:14:23.164  INFO 1477 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-04-03 04:14:23.187  INFO 1477 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-03 04:14:23.187  INFO 1477 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-04-03 04:14:23.569  INFO 1477 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2020-04-03 04:14:23.576  INFO 1477 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2020-04-03 04:14:23.589  INFO 1477 --- [    Test worker] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2020-04-03 04:14:23.662  INFO 1477 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2020-04-03 04:14:23.668  INFO 1477 --- [    Test worker] io.pivotal.pal.tracker.allocations.App   : Started App in 7.551 seconds (JVM running for 8.1)
+2020-04-03 04:14:23.772  INFO 1477 --- [nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-04-03 04:14:23.772  INFO 1477 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2020-04-03 04:14:23.786  INFO 1477 --- [nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 14 ms
+2020-04-03 04:14:23.845  INFO 1477 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-03 04:14:23.849  WARN 1477 --- [nio-8181-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-03 04:14:23.987  INFO 1477 --- [nio-8181-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 </pre>
 </span>
 </div>
@@ -151,7 +151,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.3</a> at 02-Apr-2020, 8:57:43 AM</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 03-Apr-2020, 9:44:24 AM</p>
 </div>
 </div>
 </body>
