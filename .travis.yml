@@ -25,7 +25,7 @@
   language: bash
   script:
     - echo "Downloading allocations server $RELEASE_TAG"
-    - wget -P applications/allocations-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/allocations-server.jar
+    - wget -P applications/allocations-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed/releases/download/$RELEASE_TAG/allocations-server.jar
   before_deploy:
     - cp manifest-allocations.yml manifest.yml
     - echo "Deploying allocations server $RELEASE_TAG"
@@ -41,7 +41,7 @@
   language: bash
   script:
     - echo "Downloading backlog server $RELEASE_TAG"
-    - wget -P applications/backlog-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/backlog-server.jar
+    - wget -P applications/backlog-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed/releases/download/$RELEASE_TAG/backlog-server.jar
   before_deploy:
     - cp manifest-backlog.yml manifest.yml
     - echo "Deploying backlog server $RELEASE_TAG"
@@ -52,7 +52,7 @@
   language: bash
   script:
     - echo "Downloading registration server $RELEASE_TAG"
-    - wget -P applications/registration-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/registration-server.jar
+    - wget -P applications/registration-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed/releases/download/$RELEASE_TAG/registration-server.jar
   before_deploy:
     - cp manifest-registration.yml manifest.yml
     - echo "Deploying registration server $RELEASE_TAG"
@@ -63,7 +63,7 @@
   language: bash
   script:
     - echo "Downloading timesheets server $RELEASE_TAG"
-    - wget -P applications/timesheets-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed-srini/releases/download/$RELEASE_TAG/timesheets-server.jar
+    - wget -P applications/timesheets-server/build/libs https://github.com/$GITHUB_USERNAME/pal-tracker-distributed/releases/download/$RELEASE_TAG/timesheets-server.jar
   before_deploy:
     - cp manifest-timesheets.yml manifest.yml
     - echo "Deploying timesheets server $RELEASE_TAG"
