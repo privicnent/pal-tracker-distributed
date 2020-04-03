@@ -3,9 +3,10 @@ applications:
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route:  registration-pal-privincent123.cfapps.io
-  memory: 1G
+  memory: 512MB
   instances: 1
   env:
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+    JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
+    JBP_CONFIG_OPEN_JDK_JRE: '[memory_calculator: {stack_threads: 30},{ jre: { version: 11.+ } }]'
   services:
   - tracker-registration-database
