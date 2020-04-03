@@ -20,6 +20,8 @@ public class RegistrationService {
     @Transactional
     public UserRecord createUserWithAccount(String name) {
         UserRecord user = userDataGateway.create(name);
+        System.out.println("********************************");
+        System.out.println("********************************"+user.id);
         accountDataGateway.create(user.id, String.format("%s's account", name));
         return user;
     }
