@@ -3,7 +3,7 @@ applications:
     path: ./applications/allocations-server/build/libs/allocations-server.jar
     routes:
       - route: allocations-pal-privincent123.cfapps.io
-    memory: 1G
+    memory: 450MB
     instances: 1
     env:
       REGISTRATION_SERVER_ENDPOINT: http://registration-pal-privincent123.cfapps.io

@@ -3,7 +3,7 @@ applications:
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
   - route:  registration-pal-privincent123.cfapps.io
-  memory: 512MB
+  memory: 450MB
   instances: 1
   env:
     JAVA_OPTS: '-XX:ReservedCodeCacheSize=32M -XX:MaxDirectMemorySize=32M'
