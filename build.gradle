@@ -1,5 +1,4 @@
 import io.pivotal.pal.tracker.gradlebuild.DependenciesGraphPlugin
-import org.flywaydb.gradle.task.FlywayMigrateTask
 
 buildscript {
     ext {
@@ -32,9 +31,6 @@ buildscript {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
         classpath "mysql:mysql-connector-java:$mysqlVersion"
     }
-}
-plugins {
-    id "org.flywaydb.flyway" version "5.2.1"
 }
 apply plugin: DependenciesGraphPlugin
 
