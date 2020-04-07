@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.pivotal.pal.tracker.accounts.AccountControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-03T04:14:52" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.054">
+<testsuite name="test.pivotal.pal.tracker.accounts.AccountControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-03T07:54:35" hostname="RABODEVOPS-7s-MacBook-Pro.local" time="0.057">
   <properties/>
-  <testcase name="testList" classname="test.pivotal.pal.tracker.accounts.AccountControllerTest" time="0.054"/>
+  <testcase name="testList" classname="test.pivotal.pal.tracker.accounts.AccountControllerTest" time="0.057"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
